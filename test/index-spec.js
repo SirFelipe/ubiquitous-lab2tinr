@@ -5,7 +5,7 @@ var http = require('http'),
     express = require('express'),
     app = express();
     
-app.set('port', 5000)
+app.set('port', (process.env.PORT || 5000))
 
 var baseurl = 'http://127.0.0.1:' + app.get('port') + '/';
 console.log('Testing with URL', baseurl);

@@ -1,10 +1,12 @@
 {
-  "name": "lab2tinr",
+  "name": "node-labtravis",
   "version": "1.0.0",
-  "description": "\"Test ci using node and Travis\"",
+  "description": "\"Node project to test travis ci integrations\"",
   "main": "index.js",
+  "directories": {
+  },
   "scripts": {
-    "test1": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "test": "mocha --exit"
   },
   "author": "sirfelipe",
