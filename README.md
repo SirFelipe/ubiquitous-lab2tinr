@@ -133,5 +133,5 @@ Ao final do processo verifique novamente o arquivo .travis.yml, ele possuirá a 
 7. Finalizando o processo execute um novo commit na branch master, de prefêrencia alterando o texto entregue 
 quivo index.js e acompanhe em seguida o processo de validação da alteração pelo travis e o deploy da nova versão no Heroku.
 
----
+----
 
